@@ -44,6 +44,7 @@ body {
     text-transform: capitalize;
     color: hsl(31, 77%, 52%);
     width: 160px;
+    font-size: 0.9rem;
 }
 .second-section{
     display:flex;
@@ -61,6 +62,7 @@ body {
     text-transform: capitalize;
     color: hsl(184, 100%, 22%);
     width: 160px;
+    font-size: 0.9rem;
 }
 
 .third-section{
@@ -82,6 +84,7 @@ body {
     text-transform: capitalize;
     color: hsl(179, 100%, 13%);
     width: 160px; 
+    font-size: 0.9rem;
 }
 
 .btn:hover{
