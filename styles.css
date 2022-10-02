@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15;
+}
+
+.wrapper{
+   background-color: hsl(0, 0%, 95%);
+}
+.first-section{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    display:flex;
+    gap: 2.5em;
+    flex-direction: column;
+    background-color:hsl(31, 77%, 52%) ;
+    padding:3em;
+    color: hsl(0, 0%, 95%);
+}
+.heading{
+    font-size: 3rem;
+    text-transform:uppercase;
+    font-family: "Big Shoulders Display", sans-serif ;
+}
+
+.para{
+    width: 250px;   
+    line-height: 1.7em;
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.btn.s-1{
+    background-color:hsl(0, 0%, 95%);
+    padding: 1rem 2.5rem ;
+    border-radius: 2rem;
+    display: inline-block;
+    text-transform: capitalize;
+    color: hsl(31, 77%, 52%);
+    width: 160px;
+}
+.second-section{
+    display:flex;
+    gap: 2.5em;
+    flex-direction: column;
+    background-color:hsl(184, 100%, 22%) ;
+    padding:3em;
+    color: hsl(0, 0%, 95%);
+}
+.btn.s-2{
+    background-color:hsl(0, 0%, 95%);
+    padding: 1rem 2.5rem ;
+    border-radius: 2rem;
+    display: inline-block;
+    text-transform: capitalize;
+    color: hsl(184, 100%, 22%);
+    width: 160px;
+}
+
+.third-section{
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    display:flex;
+    gap: 2.5em;
+    flex-direction: column;
+    background-color:hsl(179, 100%, 13%) ;
+    padding:3em;
+    color: hsl(0, 0%, 95%);
+
+}
+.btn.s-3{
+    background-color:hsl(0, 0%, 95%);
+    padding: 1rem 2.5rem ;
+    border-radius: 2rem;
+    display: inline-block;
+    text-transform: capitalize;
+    color: hsl(179, 100%, 13%);
+    width: 160px; 
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+@media (min-width:375px){
+    .wrapper{
+        display:flex;
+        justify-content: center;
+        height: 100vh;
+        flex-wrap:wrap;
+    }
+    .container{
+        flex-wrap:wrap;
+        align-self: center;
+    }
+    .first-section{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1em;
+    }
+    .third-section{
+        border-bottom-left-radius: 0;
+        border-top-right-radius:1em ;
+    }
+}
